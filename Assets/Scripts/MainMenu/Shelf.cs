@@ -50,7 +50,7 @@ namespace Assets.Scripts.MainMenu
 					break;
 			}
 			if (defaultOpen)
-				state = State.finish;
+				state = State.question;
 
 			if (state == State.louck)
 				foreach (var item in connectedShelfs)
