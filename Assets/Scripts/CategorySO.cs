@@ -7,6 +7,7 @@ namespace Assets.Scripts
 	public class CategorySO : ScriptableObject
 	{
 		public string categoryName;
+		[TextArea]
 		public string categoryDescription;
 
 
