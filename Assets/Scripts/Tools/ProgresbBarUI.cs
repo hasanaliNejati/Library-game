@@ -17,10 +17,6 @@ public class ProgresbBarUi : MonoBehaviour
 
     private void OnEnable()
     {
-        if(isInit)
-        {
-            end = true;
-        }
 
         if (upsideDown)
         {
@@ -36,6 +32,13 @@ public class ProgresbBarUi : MonoBehaviour
     {
         this.time = time;
         end = false;
+
+        OnEnable();
+    }
+
+    public void Stop()
+    {
+        end = true;
     }
 
     private void Update()

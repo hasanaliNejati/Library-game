@@ -9,6 +9,11 @@ namespace Question
     public class QuestionGamePlayManager : MonoBehaviour
     {
 
+        public enum State
+        {
+            playing, End
+        }
+
         private const string KEY_TIMERBARE = "TimerBar";
 
         private static QuestionGamePlayManager _instance;
@@ -19,6 +24,8 @@ namespace Question
                 return _instance ? _instance : _instance = FindObjectOfType<QuestionGamePlayManager>();
             }
         }
+
+        private State state;
 
         [SerializeField] private float timeBarWithAnyQuestion;
 
@@ -40,6 +47,12 @@ namespace Question
 
         private void Start()
         {
+            state = State.playing;
+
+            maxNumberRight = questionLevel.maxRight;
+            numberHeart = questionLevel.maxMistalce;
+
+            questionLevel.ClaerPastNumberList();
             SetQuestion();
             Monitor.Instance.Init(question, maxNumberRight, numberHeart, timeBarWithAnyQuestion);
             Timer.SetTimer(KEY_TIMERBARE, () => Lose(), timeBarWithAnyQuestion);
@@ -47,52 +60,76 @@ namespace Question
 
         private void SetQuestion()
         {
+            bool isFirs = question == null;
             question = questionLevel.GetRandomQuestion();
+            if (!isFirs)
+            {
+                Monitor.Instance.Render(question, timeBarWithAnyQuestion);
+            }
+
         }
 
         public void CheckTargetID(int targetID)
         {
-            if (question.CheckIsTrueId(targetID))
+
+            if (state == State.playing)
             {
-                numberRight++;
-                OnFindRightWord?.Invoke();
-                if (!Win())
+                if (question.CheckIsTrueId(targetID))
                 {
-                    SetQuestion();
+                    numberRight++;
+                    OnFindRightWord?.Invoke();
+                    if (!Win())
+                    {
+                        SetQuestion();
+                    }
+                }
+                else
+                {
+                    numberHeart--;
+                    OnFindMistalceWord?.Invoke();
+
+                    if (!Lose())
+                    {
+                        SetQuestion();
+                    }
+
                 }
             }
-            else
-            {
-                numberHeart--;
-                OnLose?.Invoke();
 
-                if (!Lose())
-                {
-                    SetQuestion();
-                }
 
-            }
         }
 
         private bool Win()
         {
-            if (numberRight == maxNumberRight)
+            if (state == State.playing)
             {
-                print("win");
-                OnWin();
-                return true;
+                if (numberRight == maxNumberRight)
+                {
+                    print("win");
+                    OnWin();
+                    state = State.End;
+
+                    return true;
+                }
             }
             return false;
         }
 
         private bool Lose()
         {
-            if(numberHeart == 0)
+            if (state==State.playing)
             {
-                print("Lose");
-                return true;
-            }
-            return false;
+                if (numberHeart == 0)
+                {
+                    print("Lose");
+                    OnLose();
+                    state = State.End;
+
+                    return true;
+                }
+
+            }  
+            return false; 
         }
 
 

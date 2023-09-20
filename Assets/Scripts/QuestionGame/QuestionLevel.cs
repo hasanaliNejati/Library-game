@@ -1,3 +1,5 @@
+using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -5,6 +7,7 @@ using UnityEngine;
 
 namespace Question
 {
+    [Serializable]
     public class QuestionLevel
     {
         [SerializeField] private int _maxMistalce;
@@ -35,7 +38,7 @@ namespace Question
             for (int i = 0; i < 1000; i++)
             {
 
-                int targetId = Random.Range(0, questionList.Count);
+                int targetId =UnityEngine.Random.Range(0, questionList.Count);
 
                 bool isNewIndex = true;
                 foreach(int pastId in pastNumberList)
@@ -48,9 +51,9 @@ namespace Question
                 }
 
                 if (isNewIndex)
-                {
-                    pastNumberList.Add(i);
-                    return questionList[i];
+                { 
+                    pastNumberList.Add(targetId);
+                    return questionList[targetId];
                 }
 
             }
