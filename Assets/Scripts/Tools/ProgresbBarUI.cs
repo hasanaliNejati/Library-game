@@ -10,13 +10,18 @@ public class ProgresbBarUi : MonoBehaviour
     [SerializeField] private float time;
     [SerializeField] private UnityEvent unityEvent;
     [SerializeField] private Image barUi;
-
+    [Space(20),Header("Defalt worck with unity start"),SerializeField] private bool isInit;
 
     private bool end;
     private float deltaTime;
 
     private void OnEnable()
     {
+        if(isInit)
+        {
+            end = true;
+        }
+
         if (upsideDown)
         {
             deltaTime = time;
@@ -25,6 +30,12 @@ public class ProgresbBarUi : MonoBehaviour
         {
             deltaTime = 0;
         }
+    }
+
+    public void Init(float time)
+    {
+        this.time = time;
+        end = false;
     }
 
     private void Update()
