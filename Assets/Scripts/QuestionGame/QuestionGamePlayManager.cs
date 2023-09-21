@@ -149,6 +149,7 @@ namespace Question
 			{
 				if (numberRight == maxNumberRight)
 				{
+					GameManager.Instance.category.SaveState(Assets.Scripts.MainMenu.Shelf.State.order);
 					print("win");
 					state = State.End;
 					AudioSource.PlayClipAtPoint(WinSound, Camera.main.transform.position);
