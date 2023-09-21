@@ -1,5 +1,6 @@
 ﻿using Sirenix.OdinInspector;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -18,8 +19,8 @@ namespace Assets.Scripts.MainMenu
 		[SerializeField] PanelScript FinishPanel;
 		[Title("Graphic")]
 		[SerializeField] ShelfStateGraphics shelfGraphic;
-		[SerializeField] Text[] nameTexts;
-		[SerializeField] Text[] describeTexts;
+		[SerializeField] TextMeshProUGUI[] nameTexts;
+		[SerializeField] TextMeshProUGUI[] describeTexts;
 		[SerializeField] UnityEvent OnClick;
 		bool inited;
 		void Start()
