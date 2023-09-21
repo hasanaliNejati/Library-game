@@ -18,24 +18,27 @@ namespace Question
         public void Init(int numberHeart)
         {
             //print(numberHeart);
-            foreach (Transform item in parent)
+            foreach(var item in heartObjectList)
             {
                 Destroy(item.gameObject);
             }
             for (int i = 0; i < numberHeart; i++)
             {
 
-                heartObjectList.Add(Instantiate(heartObject, parent));
+                var newItem = Instantiate(heartObject, parent);
+                newItem.SetActive(true);
+				heartObjectList.Add(newItem);
             }
 
-            foreach (Transform item in parentBackground)
+            foreach (var item in heartBackgroundObjectList)
             {
                 Destroy(item.gameObject);
             }
             for (int i = 0; i < numberHeart; i++)
             {
-
-                heartBackgroundObjectList.Add(Instantiate(heartBackgroundObject, parentBackground));
+				var newItem = Instantiate(heartBackgroundObject, parentBackground);
+				newItem.SetActive(true);
+				heartBackgroundObjectList.Add(newItem);
             }
             QuestionGamePlayManager.Instance.OnFindMistalceWord += FindMistalceWord;
         }

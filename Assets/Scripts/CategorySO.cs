@@ -1,5 +1,6 @@
 ﻿using Assets.Scripts.MainMenu;
 using Assets.Scripts.Order;
+using Question;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,7 @@ namespace Assets.Scripts
 		[TextArea]
 		public string categoryDescription;
 		public List<BookData> booksData = new List<BookData>();
-
+		public QuestionLevel questionLevel;
 		public void SaveState(Shelf.State state)
 		{
 			switch (state)

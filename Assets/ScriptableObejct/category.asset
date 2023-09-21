@@ -126,3 +126,77 @@ MonoBehaviour:
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  questionLevel:
+    _maxMistalce: 3
+    _maxRight: 7
+    questionList:
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0
+    - description: "\u0645\u06CC\u062F\u0648\u0646\u06CC \u0686\u0631\u0627\u061F"
+      optionArray:
+      - "\u0622\u0631\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      - "\u0646\u0647"
+      trueID: 0

@@ -1,3 +1,4 @@
+using Question;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class ProgresbBarUi : MonoBehaviour
     [SerializeField] private bool upsideDown;
     [SerializeField] private float time;
     [SerializeField] private UnityEvent unityEvent;
-    [SerializeField] private Image barUi;
+    [SerializeField] private Slider barUi;
     [Space(20),Header("Defalt worck with unity start"),SerializeField] private bool isInit;
 
     private bool end;
@@ -55,12 +56,13 @@ public class ProgresbBarUi : MonoBehaviour
                 deltaTime += Time.deltaTime;
             }
 
-            barUi.fillAmount = deltaTime / time;
+            barUi.value = deltaTime / time;
 
             if (upsideDown)
             {
                 if (deltaTime <= 0)
                 {
+                    QuestionGamePlayManager.Instance.EndTime();
                     unityEvent?.Invoke();
                     end = true;
                 }
@@ -69,7 +71,8 @@ public class ProgresbBarUi : MonoBehaviour
             {
                 if (deltaTime >= time)
                 {
-                    unityEvent?.Invoke();
+					QuestionGamePlayManager.Instance.EndTime();
+					unityEvent?.Invoke();
                     end = true;
                 }
             }
