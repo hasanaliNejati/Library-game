@@ -31,7 +31,7 @@ namespace Assets.Scripts.MainMenu
 		public void Init()
 		{
 			inited = true;
-			int savedNum = PlayerPrefs.GetInt(category.name);
+			int savedNum = PlayerPrefs.GetInt(category.categoryName);
 			switch (savedNum)
 			{
 				case 0:
@@ -50,7 +50,7 @@ namespace Assets.Scripts.MainMenu
 					state = State.finish;
 					break;
 			}
-			if (defaultOpen)
+			if (defaultOpen && state == State.louck)
 				state = State.question;
 
 			if (state == State.louck)

@@ -27,7 +27,10 @@ namespace Assets.Scripts
 					break;
 				case Shelf.State.order:
 					if (PlayerPrefs.GetInt(categoryName) < 2)
+					{
+
 						PlayerPrefs.SetInt(categoryName, 2);
+					}
 					break;
 				case Shelf.State.finish:
 					PlayerPrefs.SetInt(categoryName, 3);

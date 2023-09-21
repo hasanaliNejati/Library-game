@@ -40,10 +40,12 @@ public class GameManager : MonoBehaviour
 
 	public void StartQuestionGame(CategorySO category)
 	{
+		this.category = category;
 		StartCoroutine(GoToScene(QuestionSceneName));
 	}
 	public void StartOrderGame(CategorySO category)
 	{
+		this.category = category;
 		StartCoroutine(GoToScene(OrderSceneName));
 
 	}

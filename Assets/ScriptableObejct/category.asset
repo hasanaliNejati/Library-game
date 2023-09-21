@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68fba457cc11a9843860610d0ec8d85e, type: 3}
   m_Name: category
   m_EditorClassIdentifier: 
-  categoryName: q - first category
+  categoryName: "\u0641\u0644\u0633\u0641\u0647"
   categoryDescription: ".\uFEA9\uFEAE\uFBFF\uFB94 \uFEAD\uFE8D\uFEAE\uFED7 \uFEE9\uFEA9\uFE8E\uFED4\uFE98\uFEB3\uFE8D
     \uFEA9\uFEAD\uFEEE\uFEE3 \uFE8E\uFEB3\uFE8E\uFEB3\uFE8D \uFBFD\uFEA3\uFE8D\uFEAE\uFEC3
     \uFEA9\uFEEE\uFE9F\uFEEE\uFEE3 \uFBFC\uFE8E\uFBFF\uFEE7\uFEA9 \uFEDE\uFEEB\uFE8D

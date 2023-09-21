@@ -6,7 +6,8 @@ namespace Assets.Scripts.Order
 	[System.Serializable]
 	public class BookData
 	{
-		public int category;
+		public float category;
+		public string auther;
 		public string title;
 		[System.Serializable]
 		public class VisibilityData

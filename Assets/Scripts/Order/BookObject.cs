@@ -17,6 +17,7 @@ namespace Assets.Scripts.Order
 		public Vector2 pos;
 		[Title("Texts")]
 		public TextMeshPro categoryText;
+		public TextMeshPro autherText;
 		public TextMeshPro nameText;
 		public void Init(BookData data)
 		{
@@ -26,7 +27,9 @@ namespace Assets.Scripts.Order
 			spriteRenderer.size = new Vector2(data.visibility.width, spriteRenderer.size.y);
 			button.localScale = new Vector3(data.visibility.width,button.localScale.y);
 			//spriteRenderer.transform.localPosition = new Vector3(data.visibility.width / 2, 0);
-			categoryText.text = data.category.ToString();
+			categoryText.text = data.category.ToString().Replace('.','/');
+			autherText.text = data.auther;
+
 			nameText.text = data.title;
 		}
 
