@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f76d22f25534b41822c30950727850, type: 3}
+  m_Name: Category initializer
+  m_EditorClassIdentifier: 
+  category: {fileID: 11400000, guid: 6ff5f8c83d02800499b3f3557beef533, type: 2}
+  questionDataText: {fileID: 4900000, guid: cc2923f774e8a4c498b12b0a33514ac2, type: 3}
+  booksDataText: {fileID: 4900000, guid: e636b29fa9eddf040a89b07865a2db1b, type: 3}
+  maxRight: 7
+  maxMistake: 3
+  bookSprites:
+  - {fileID: 21300000, guid: d58a8d9f9defd7a4fae5863f0bbc4ab9, type: 3}
+  - {fileID: 21300000, guid: bd6668752f6c5824b924829fd1ed6f21, type: 3}
+  minSize: 0.8
+  maxSize: 2.5

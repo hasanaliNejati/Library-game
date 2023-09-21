@@ -2,6 +2,7 @@
 using UnityEngine;
 using RTLTMPro;
 using Assets.Scripts.QuestionGame;
+using System.Collections.Generic;
 
 namespace Question
 {
@@ -53,7 +54,7 @@ namespace Question
 
 
 
-            question.OutData(out string description, out string[] optionArray);
+            question.OutData(out string description, out List<string> optionArray);
 
             print(description);
             description_TMP.text = description;

@@ -10,19 +10,11 @@ namespace Question
     [Serializable]
     public class QuestionLevel
     {
-        [SerializeField] private int _maxMistalce;
-        public int maxMistalce
-        {
-            get { return _maxMistalce; }
-        }
+        public int maxMistalce;
 
-        [SerializeField] private int _maxRight;
-        public int maxRight
-        {
-            get { return _maxRight; }
-        }
+        public int maxRight;
 
-        [SerializeField] private List<Question> questionList;
+        public List<Question> questionList;
 
 
         private List<int> pastNumberList = new List<int>();

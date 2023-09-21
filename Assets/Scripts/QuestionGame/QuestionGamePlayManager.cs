@@ -92,7 +92,7 @@ namespace Question
 			{
 				CheckId?.Invoke();
 
-                if (question.CheckIsTrueId(targetID))
+                if (0 == (targetID))
 				{
 					numberRight++;
 					OnFindRightWord?.Invoke();

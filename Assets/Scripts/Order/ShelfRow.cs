@@ -138,7 +138,7 @@ namespace Assets.Scripts.Order
 
 		public void CheckWin()
 		{
-			int last = 0;
+			float last = 0;
 			foreach (var item in _books)
 			{
 				if (item.data.category < last)
