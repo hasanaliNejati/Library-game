@@ -35,6 +35,9 @@ public class GameManager : MonoBehaviour
 	[SerializeField] string OrderSceneName = "Order";
 	[SerializeField]
 	float loadSceneDelay = 0.3f;
+
+	public CategorySO category;
+
 	public void StartQuestionGame(CategorySO category)
 	{
 		StartCoroutine(GoToScene(QuestionSceneName));

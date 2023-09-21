@@ -1,5 +1,7 @@
 ﻿using Assets.Scripts.MainMenu;
+using Assets.Scripts.Order;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Scripts
@@ -10,7 +12,7 @@ namespace Assets.Scripts
 		public string categoryName;
 		[TextArea]
 		public string categoryDescription;
-
+		public List<BookData> booksData = new List<BookData>();
 
 		public void SaveState(Shelf.State state)
 		{

@@ -50,3 +50,79 @@ MonoBehaviour:
     \uFEE1\uFEEE\uFEEC\uFED4\uFEE3\uFE8E\uFEE7 \uFBFD\uFB94\uFEA9\uFE8E\uFEB3 \uFEAA\uFBFF\uFEDF\uFEEE\uFE97
     \uFE8E\uFE91 \uFBFD\uFB95\uFE98\uFEA7\uFE8E\uFEB3 \uFEE6\uFE98\uFEE3 \uFEE1\uFEEE\uFEB4\uFB59\uFBFE\uFE8D
     \uFEE1\uFEAD\uFEEE\uFEDF"
+  booksData:
+  - category: 12
+    title: 
+    visibility:
+      width: 3
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 452
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 4578
+    title: 
+    visibility:
+      width: 3
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 2345
+    title: 
+    visibility:
+      width: 3
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 45321
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 1535
+    title: 
+    visibility:
+      width: 3
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 2
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
+  - category: 12
+    title: 
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 347cee4d8e669d34f8127cceabc4ae86, type: 3}
