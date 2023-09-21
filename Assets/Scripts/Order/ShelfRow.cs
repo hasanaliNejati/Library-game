@@ -65,7 +65,7 @@ namespace Assets.Scripts.Order
 			}
 
 			float width = CalculatePos();
-			cameraSizeManager.targetWidth = width + 5;
+			cameraSizeManager.targetWidth = width + 2;
 			cameraSizeManager.Start();
 			cameraSizeManager.transform.position += new Vector3(width / 2, 0, 0);
 		}
