@@ -15,7 +15,8 @@ namespace Question
             Expectation, playing, End
 		}
 
-		private const string KEY_TIMERBARE = "TimerBar";
+		public const string KEY_DEVELOPERMOD = "infinity wuestion";
+        private const string KEY_TIMERBARE = "TimerBar";
 
 		private static QuestionGamePlayManager _instance;
 		public static QuestionGamePlayManager Instance
