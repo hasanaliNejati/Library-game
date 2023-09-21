@@ -14,15 +14,17 @@ namespace Question
 
         public void Init(int index, string option)
         {
+            SetColor(Color.white);
             id = index;
             rtlTextMeshPro.text = option;
         }
 
 
         public void Click()
-        {
-            QuestionGamePlayManager.Instance.CheckTargetID(id);
+        { 
             SetColor(Color.red);
+            QuestionGamePlayManager.Instance.CheckTargetID(id);
+
         }
 
         public void SetColor(Color color)
