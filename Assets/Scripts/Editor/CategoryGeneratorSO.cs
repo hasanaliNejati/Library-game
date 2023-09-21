@@ -6,7 +6,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Category initializer",menuName = "ScriptableObejcts/categoryIniter",order = 0)]
+[CreateAssetMenu(fileName = "Category initializer", menuName = "ScriptableObejcts/categoryIniter", order = 0)]
 public class CategoryGeneratorSO : ScriptableObject
 {
 	[SerializeField] CategorySO category;
@@ -16,9 +16,11 @@ public class CategoryGeneratorSO : ScriptableObject
 	[SerializeField] int maxRight = 7;
 	[SerializeField] int maxMistake = 3;
 	[Title("Order")]
-	[SerializeField] List<Sprite> bookSprites = new List<Sprite>();
-	[SerializeField] float minSize = 0.8f;
-	[SerializeField] float maxSize = 2.5f;
+	[SerializeField]
+	BookData.VisibilityData[] visibilities;
+	//[SerializeField] List<Sprite> bookSprites = new List<Sprite>();
+	//[SerializeField] float minSize = 0.8f;
+	//[SerializeField] float maxSize = 2.5f;
 
 	[Button("GenerateLevel")]
 	public void GenerateLevel()
@@ -81,11 +83,13 @@ public class CategoryGeneratorSO : ScriptableObject
 			newBookData.category = float.Parse(data[1]);
 			newBookData.auther = data[2];
 
-			newBookData.visibility = new BookData.VisibilityData
-			{
-				sprite = bookSprites[Random.Range(0, bookSprites.Count)],
-				width = Random.Range(minSize, maxSize)
-			};
+			newBookData.visibility = visibilities[Random.Range(0, visibilities.Length)];
+
+			//newBookData.visibility = new BookData.VisibilityData
+			//{
+			//	sprite = bookSprites[Random.Range(0, bookSprites.Count)],
+			//	width = Random.Range(minSize, maxSize)
+			//};
 
 			bookDataList.Add(newBookData);
 		}
