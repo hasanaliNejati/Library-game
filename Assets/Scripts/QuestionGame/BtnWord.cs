@@ -13,8 +13,16 @@ namespace Question
         private int id;
 
         public void Init(int index, string option)
-        {
+        { 
             SetColor(Color.white);
+            if (index == 0)
+            {
+                if (PlayerPrefs.GetInt(QuestionGamePlayManager.KEY_DEVELOPERMOD, 0) == 1)
+                {
+                    SetColor(Color.gray);
+                }
+            }
+
             id = index;
             rtlTextMeshPro.text = option;
         }
