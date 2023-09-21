@@ -50,8 +50,28 @@ namespace Question
             print(description);
             description_TMP.text = description;
 
-            for (int i = 0; i < btnWordArray.Length; i++)
+
+            int indexAry = btnWordArray.Length;
+
+            for (int i = 0; i < indexAry; i++)
             {
+                int target = Random.Range(0, indexAry);
+
+                var myBtn = btnWordArray[i];
+                var targetBtn = btnWordArray[target];
+
+                btnWordArray[i] = targetBtn;
+                btnWordArray[target] = myBtn;
+
+            }
+
+
+
+
+
+            for (int i = 0; i < indexAry; i++)
+            {
+
                 btnWordArray[i].Init(i, optionArray[i]);
             }
 

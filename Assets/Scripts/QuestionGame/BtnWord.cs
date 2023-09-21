@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using RTLTMPro;
+using UnityEngine.UI;
 
 namespace Question
 {
@@ -8,6 +9,7 @@ namespace Question
     {
 
         [SerializeField] private RTLTextMeshPro rtlTextMeshPro;
+        [SerializeField] private Image background;
         private int id;
 
         public void Init(int index, string option)
@@ -20,6 +22,12 @@ namespace Question
         public void Click()
         {
             QuestionGamePlayManager.Instance.CheckTargetID(id);
+            SetColor(Color.red);
+        }
+
+        public void SetColor(Color color)
+        {
+            background.color = color;
         }
 
     }
