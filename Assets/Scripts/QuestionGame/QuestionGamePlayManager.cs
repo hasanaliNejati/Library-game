@@ -70,7 +70,6 @@ namespace Question
 			questionLevel.ClaerPastNumberList();
 			SetQuestion();
 			Monitor.Instance.Init(question, maxNumberRight, numberHeart, timeBarWithAnyQuestion);
-			Timer.SetTimer(KEY_TIMERBARE, () => Lose(), timeBarWithAnyQuestion);
 		}
 
 		private void SetQuestion()
@@ -87,6 +86,7 @@ namespace Question
 		public void CheckTargetID(int targetID)
 		{
 
+			FindObjectOfType<ProgresbBarUi>().Stop();
 			if (state == State.playing)
 			{
 				if (question.CheckIsTrueId(targetID))
@@ -94,7 +94,7 @@ namespace Question
 					numberRight++;
 					OnFindRightWord?.Invoke();
 					AudioSource.PlayClipAtPoint(rightAnswerSound, Camera.main.transform.position);
-
+					
 					if (!Win())
 						NextQuestion();
 
