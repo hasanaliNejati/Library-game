@@ -12,7 +12,7 @@ namespace Question
 
 		public enum State
 		{
-			playing, End
+            Expectation, playing, End
 		}
 
 		private const string KEY_TIMERBARE = "TimerBar";
@@ -26,7 +26,7 @@ namespace Question
 			}
 		}
 
-		private State state;
+		private State state=State.Expectation;
 		[SerializeField] PanelScript questionBoxPanel;
 		[SerializeField] private float timeBarWithAnyQuestion;
 		[SerializeField] float nextQuestionDelay = 0.5f;
@@ -61,7 +61,7 @@ namespace Question
 
 		private int numberHeart;
 
-		private void Start()
+		public void Init()
 		{
 			state = State.playing;
 

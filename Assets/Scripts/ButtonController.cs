@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.MainMenu;
+using Question;
 using System.Collections;
 using UnityEngine;
 
@@ -29,5 +30,11 @@ namespace Assets.Scripts
 					break;
 			}
 		}
+
+		public void InitQGPM()
+		{
+			QuestionGamePlayManager.Instance.Init();
+		}
+
 	}
 }
