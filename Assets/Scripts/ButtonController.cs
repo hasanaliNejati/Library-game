@@ -7,7 +7,7 @@ namespace Assets.Scripts
 {
 	public class ButtonController : MonoBehaviour
 	{
-		public enum Type { Restart, GoToQuestion, GoToOrder, GoToMainMenu }
+		public enum Type { Restart, GoToQuestion, GoToOrder, GoToMainMenu,Exit,PlayStory }
 		[SerializeField] Type type;
 		[SerializeField] Shelf shelf;
 		public void Click()
@@ -25,6 +25,12 @@ namespace Assets.Scripts
 					break;
 				case Type.GoToMainMenu:
 					GameManager.Instance.GoToMainMenu();
+					break;
+				case Type.Exit:
+					Application.Quit();
+					break;
+				case Type.PlayStory:
+
 					break;
 				default:
 					break;
