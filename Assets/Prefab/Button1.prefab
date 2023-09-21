@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rtlTextMeshPro: {fileID: 1054295275344086596}
+  background: {fileID: 1652217900972704052}
 --- !u!1 &7320790508201430747
 GameObject:
   m_ObjectHideFlags: 0

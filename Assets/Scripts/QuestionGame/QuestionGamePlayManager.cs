@@ -47,11 +47,12 @@ namespace Question
 		QuestionLevel questionLevel { get { return GameManager.Instance.category.questionLevel; } }
 		private Question question;
 
-
+		public event Action CheckId;
 		public event Action OnFindRightWord;
 		public event Action OnFindMistalceWord;
 		public event Action OnWin;
 		public event Action OnLose;
+
 
 
 
@@ -89,7 +90,9 @@ namespace Question
 			FindObjectOfType<ProgresbBarUi>().Stop();
 			if (state == State.playing)
 			{
-				if (question.CheckIsTrueId(targetID))
+				CheckId?.Invoke();
+
+                if (question.CheckIsTrueId(targetID))
 				{
 					numberRight++;
 					OnFindRightWord?.Invoke();

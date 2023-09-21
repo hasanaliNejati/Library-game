@@ -38,12 +38,20 @@ namespace Question
             visualRightWord.Init(maxRight);
             QuestionGamePlayManager.Instance.OnWin += barUi.Stop;
             QuestionGamePlayManager.Instance.OnLose += barUi.Stop;
-        }
-         
 
+            QuestionGamePlayManager.Instance.CheckId += CheckId;
+
+        }
+
+        private void CheckId()
+        {
+            btnWordArray[0].SetColor(Color.green);
+        }
 
         public void Render(Question question,float timeBar)
         {
+
+
 
             question.OutData(out string description, out string[] optionArray);
 
@@ -64,14 +72,9 @@ namespace Question
                 btnWordArray[target] = myBtn;
 
             }
-
-
-
-
-
+ 
             for (int i = 0; i < indexAry; i++)
             {
-
                 btnWordArray[i].Init(i, optionArray[i]);
             }
 
