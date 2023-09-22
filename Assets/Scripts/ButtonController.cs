@@ -30,7 +30,7 @@ namespace Assets.Scripts
 					Application.Quit();
 					break;
 				case Type.PlayStory:
-
+					GameManager.Instance.GoToStory();
 					break;
 				default:
 					break;

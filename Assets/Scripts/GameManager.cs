@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField] string MainMenuSceneName = "MainMenu";
 	[SerializeField] string QuestionSceneName = "Question";
 	[SerializeField] string OrderSceneName = "Order";
+	[SerializeField] string StorySceneName = "Story";
 	[SerializeField]
 	float loadSceneDelay = 0.3f;
 
@@ -48,6 +49,10 @@ public class GameManager : MonoBehaviour
 		this.category = category;
 		StartCoroutine(GoToScene(OrderSceneName));
 
+	}
+	public void GoToStory()
+	{
+		StartCoroutine(GoToScene(StorySceneName));
 	}
 	public void GoToMainMenu()
 	{

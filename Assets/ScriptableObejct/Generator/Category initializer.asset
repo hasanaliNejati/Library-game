@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52f76d22f25534b41822c30950727850, type: 3}
   m_Name: Category initializer
   m_EditorClassIdentifier: 
-  category: {fileID: 11400000, guid: 4da3fd6eeece6a547a37e9fe712190e0, type: 2}
-  questionDataText: {fileID: 4900000, guid: cc2923f774e8a4c498b12b0a33514ac2, type: 3}
-  booksDataText: {fileID: 4900000, guid: 583229d707d969e47814f885cefe6d6c, type: 3}
+  category: {fileID: 11400000, guid: 27df669448cb5ef4db42b808b29ef5bb, type: 2}
+  questionDataText: {fileID: 4900000, guid: 1119fec3b973b3a4ead6268b8c74cc55, type: 3}
+  booksDataText: {fileID: 4900000, guid: 293ede152af44a04b8352aa4c100c575, type: 3}
   maxRight: 4
   maxMistake: 3
   visibilities:
