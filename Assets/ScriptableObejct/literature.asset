@@ -30,105 +30,106 @@ MonoBehaviour:
     \u0628\u0627\u0634\u062F \u0627\u062F\u0628 \u06CC\u0627 \u0627\u062F\u0628\u06CC\u0627\u062A
     \u0645\u06CC\u06AF\u0648\u06CC\u0646\u062F ."
   booksData:
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
+  - category: 3.62
+    auther: "\u0622\u06F1\u06F3\u06F6\u0627\u0644\u0641\r"
+    title: "\u0622\u062A\u0634 \u0628\u062F\u0648\u0646 \u062F\u0648\u062F "
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 1d726e3d1fe336e4d8360b0b77fecde3, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u06CC\u0633\u0628\u0633\u0628\u06CC"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 1d726e3d1fe336e4d8360b0b77fecde3, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0633\u0634\u0634\u06CC\u0633\u0628\u0634\u06CC\u0628"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
+  - category: 3.6
+    auther: "\u0647\u06F9\u06F6\u06F2\u0633\r"
+    title: "\u0647\u0631 \u062F\u0648 \u062F\u0631 \u0646\u0647\u0627\u06CC\u062A
+      \u0645\u06CC\u200C\u0645\u06CC\u0631\u0646\u062F "
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u062F\u0644\u0646\u0627\u0645\u0647"
+  - category: 95.635
+    auther: "\u06A9\u06F8\u06F3\u06F2\u0645\r"
+    title: "\u06A9\u0627\u0641\u06A9\u0627 \u062F\u0631 \u0633\u0627\u062D\u0644"
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
+  - category: 94.3533
+    auther: "\u0645\u06F5\u06F4\u06F6\u0634\r"
+    title: "\u0645\u0644\u062A \u0639\u0634\u0642"
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
+  - category: 823.92
+    auther: "\u0645\u06F8\u06F5\u06F5\u0645\r"
+    title: "\u0645\u0646 \u067E\u06CC\u0634 \u0627\u0632 \u062A\u0648"
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
+  - category: 813.54
+    auther: "\u0628\u06F8\u06F5\u06F7\u06A9\r"
+    title: "\u0628\u06CC\u0646\u0648\u0627\u06CC\u0627\u0646 "
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
+  - category: 1.31
+    auther: "\u062F\u06F8\u06F4\u06F9\u0645\r"
+    title: "\u062F\u06CC\u0648\u0627\u0646 \u0634\u0645\u0633 \u062A\u0628\u0631\u06CC\u0632\u06CC "
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
+  - category: 1.62
+    auther: "\u0646\u06F9\u06F8\u06F6\u0634\r"
+    title: "\u0631\u06CC \u0631\u0627"
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
+  - category: 8.831
+    auther: "\u06AF\u06F5\u06F4\u06F4\u0633\r"
+    title: "\u0637\u0628\u0644\u0647 \u0639\u0637\u0627\u0631"
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
+  - category: 8.832
+    auther: "\u0633\u06F5\u06F4\u06F4\u06AF\r"
+    title: "\u06AF\u0644\u0633\u062A\u0627\u0646 \u0633\u0639\u062F\u06CC "
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
+  - category: 1.32
+    auther: "\u062F\u06F1\u06F9\u06F8\u062C\r"
+    title: "\u062F\u06CC\u0648\u0627\u0646 \u062D\u0627\u0641\u0638 "
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
+  - category: 1.21
+    auther: "\u062F\u06F8\u06F9\u06F1\u0631\r"
+    title: "\u062F\u06CC\u0648\u0627\u0646 \u0631\u0648\u062F\u06A9\u06CC \u0633\u0645\u0631\u0642\u0646\u062F\u06CC "
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 74c9ba780cd93a4408d1bbe315603eb3, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0633\u06CC\u0628"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 340691c0a7c3e914391d95d7aed45931, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
+  - category: 8.6209
+    auther: "\u0647\u06F1\u06F1\u06F7\u0622\r"
+    title: "\u0647\u0641\u062A \u06AF\u0641\u062A \u0648 \u06AF\u0648 "
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
+  - category: 894.3611
+    auther: "\u062C\u06F8\u06F2\u06F5\u0634\r"
+    title: "\u062D\u06CC\u062F\u0631 \u0628\u0627\u0628\u0627\u06CC\u0627 \u0633\u0644\u0627\u0645 "
+    visibility:
+      width: 1
+      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
+  - category: 509.24
+    auther: "\u06F1\u06F8\u06F7\u0627\u0644\u0641\r"
+    title: "\u0634\u0631\u062D \u062D\u0627\u0644 "
     visibility:
       width: 1
       sprite: {fileID: 21300000, guid: 74c9ba780cd93a4408d1bbe315603eb3, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u0633\u06CC\u0628"
+  - category: 3
+    auther: "\u0644\u06F8\u06F3\u06F5\u062F"
+    title: "\u0644\u063A\u062A \u0646\u0627\u0645\u0647 \u062F\u0647\u062E\u062F\u0627"
     visibility:
       width: 1
-      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u06CC\u0628\u0633"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u06CC\u06CC\u06CC\u06CC\u06CC"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646\r"
-    title: "\u0634\u06CC\u0628"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 01f7d4641ad85c7408fe0573069a5e52, type: 3}
-  - category: 3423.234
-    auther: "\u062832\u0646"
-    title: "\u0634\u0627\u0647\u0646\u0627\u0645\u0647"
-    visibility:
-      width: 1
-      sprite: {fileID: 21300000, guid: 1d726e3d1fe336e4d8360b0b77fecde3, type: 3}
+      sprite: {fileID: 21300000, guid: 74c9ba780cd93a4408d1bbe315603eb3, type: 3}
   questionLevel:
     maxMistalce: 3
-    maxRight: 7
+    maxRight: 4
     questionList:
     - description: "\u062E\u0634\u062A \u0632\u062F\u0646 \u06A9\u0646\u0627\u06CC\u0647
         \u0627\u0632 \u0686\u06CC\u0633\u062A \u061F\r"

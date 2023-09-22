@@ -23,7 +23,7 @@ namespace Assets.Scripts.MainMenu
 		[SerializeField] TextMeshProUGUI[] describeTexts;
 		[SerializeField] UnityEvent OnClick;
 		bool inited;
-		void Start()
+		void Awake()
 		{
 			if (!inited)
 				Init();

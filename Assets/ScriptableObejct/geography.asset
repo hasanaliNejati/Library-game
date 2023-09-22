@@ -127,7 +127,7 @@ MonoBehaviour:
       sprite: {fileID: 21300000, guid: 1d726e3d1fe336e4d8360b0b77fecde3, type: 3}
   questionLevel:
     maxMistalce: 3
-    maxRight: 7
+    maxRight: 5
     questionList:
     - description: "\u067E\u0644 \u0648\u0631\u0633\u06A9 \u0627\u0632 \u0645\u0646\u0627\u0637\u0642
         \u062F\u06CC\u062F\u0646\u06CC \u06A9\u062F\u0627\u0645 \u0627\u0633\u062A\u0627\u0646

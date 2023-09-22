@@ -133,7 +133,7 @@ MonoBehaviour:
       sprite: {fileID: 21300000, guid: 1d726e3d1fe336e4d8360b0b77fecde3, type: 3}
   questionLevel:
     maxMistalce: 3
-    maxRight: 7
+    maxRight: 5
     questionList:
     - description: "\u06A9\u0634\u0645\u06A9\u0634 \u0628\u0647 \u0632\u0628\u0627\u0646
         \u0627\u0646\u06AF\u0644\u06CC\u0633\u06CC \u061F\r"
